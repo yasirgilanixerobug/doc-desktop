@@ -1,0 +1,305 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-weight: bold;
+    font-size: 32px;
+  }
+/* Add star after label to show required field */
+.requiredField:after {
+    content:" *";
+    color: red;
+}
+
+/* navbar css start here   */
+.custom-nav-set{
+    background-color: #f0f2f8;
+    padding-left: 100px;
+}
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.5);
+    font-weight: 500;
+}
+.logo-set img{
+    height: 60px;
+    width: 70px;
+}
+.bold-text a{
+    font-weight: 700;
+    margin-right: 30px;
+}
+.set-td{
+    margin-top: 15px;
+}
+.set-sign-up{
+    background-image: linear-gradient(to right, rgba(45, 131, 245, 0.986), rgb(0, 60, 255));
+    color: white;
+    padding: 2px 16px;
+    font-weight: 400;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.set-start-free{
+    padding: 4px 32px;
+    font-weight: 500;
+    font-size: 22px;
+    border-radius: 35px;
+}
+
+/* navbar css end here   */
+/* ************************************************** */
+/* main body css started here  */
+  .pad-top-cont{
+    margin-top: 2.5rem;
+
+}
+  .wid-full{
+    padding-left: 0;
+    padding-right: 0;
+}
+.fst-container{
+    background-image: url("../../app-assets/images/shape-10.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    height: 363px;
+}
+.fst-cont-text{
+    text-align: center;
+    line-height: 25px;
+    font-size: 18px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.fst-cont-text h1{
+    font-size: 2.7rem;
+}
+.features{
+    color: #ff3838;
+    font-weight: 700;
+    line-height: 3;
+    font-size: 22px;
+}
+.picktime{
+    font-size: 18px;
+}
+.cls-img-con img{
+    width: 100%;
+}
+.appoint-logo img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 8px;
+}
+.appoint-content-head{
+    background-color:#eb525b;
+    display: block;
+    width: 3px;
+    height: 20px;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+/**** Don't get suffocated with overcroweded style ****/
+.overcroweded {
+    padding: 10px 0;
+}
+.overcroweded img{
+    height: 30px;
+    width: 35px;
+}
+.overcroweded p{
+    padding-left: 10px;
+    font-weight: 500;
+}
+/*******  Access exclusive Premium features  *******/
+.access-inner img{
+    width: 60px;
+    height: 50px;
+}
+.access-content{
+    padding-left: 15px;
+
+}
+.access-features-botm{
+    margin-bottom: 10rem;
+}
+/*******  priceing  *******/
+.pricing-box{
+    text-align: center;
+    background-color: white;
+    opacity: 0.8;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 50%);
+    position: absolute;
+    margin-top: -110px;
+}
+.pricing-box h1{
+    color: #273c75;
+    font-weight: 700;
+    font-size: 44px;
+}
+.pricing-box-paddings{
+    padding-bottom: 15px;
+}
+
+/*****  footer part started here!  *****/
+
+.footer-bg{
+    background-image: url("../images/footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+.footer-margins{
+    padding-top: 6rem;
+}
+.f-top-links{
+    padding-top: 10rem;
+
+}
+.f-top-content img{
+    height: 55px;
+    width: 280px;
+    margin-bottom: 25px;
+}
+.footer-icon i{
+    color: white;
+    font-size: 35px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+.privacy-policy a{
+    color: white;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: block;
+    text-decoration: none;
+}
+.copyright{
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 24px;
+    border-top: solid 2px white;
+}
+/**************** login form css started here !  *******************/
+
+.login-form-set{
+    padding-left: 60px;
+}
+.login-form-set img{
+    height: 50px;
+    width: 220px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.login-signup{
+    color: #d63031;
+    border-bottom: 2px solid #d63031;
+    border-radius: 0px;
+    padding: 0px;
+    font-weight: 500;
+}
+.set-main-frm{
+    padding: 30px;
+}
+.set-inner-frm{
+text-align: center;
+padding: 50px 50px 10px 50px;
+}
+.login-wd-btns{
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.form-group input {
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #ced4da;
+}
+.login-btn{
+    width: 100%;
+    color: white;
+    font-weight: 400;
+    background-color: #6c5ce7;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.frm-top-down{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.forgotten{
+    margin-bottom: 30px;
+}
+.link-span{
+    font-weight: 500;
+    font-size: 17px;
+}
+.login-img img {
+    width: 22px;
+    height: 22px;
+    padding: 0;
+    margin-right: 10px;
+}
+
+
+
+
+ /* use Media Query to responsive the navbar */
+ @media only screen and (max-width: 768.9px) {
+    .fst-container {
+        background-size: cover;
+    }
+    .footer-margins{
+        padding-top: 7rem;
+    }
+    .media-set-f-links{
+        padding-top: 2rem;
+    }
+ }
+
+ @media only screen and (max-width: 430px) {
+    .logo-set img{
+        height: 30px;
+        width: 130px;
+    }
+    .custom-nav-set{
+        padding-left: 20px;
+    }
+    .set-sign-up{
+        padding: 2px 10px;
+        font-weight: 400;
+        border-radius: 15px;
+        font-size: 12px;
+    }
+    .set-td{
+        margin-top: 20px;
+    }
+    .custom-nav-set{
+        background-color: #f0f2f8;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .footer-margins{
+        padding-top: 9rem;
+    }
+    .media-set-f-links{
+        padding-top: 2rem;
+    }
+  }

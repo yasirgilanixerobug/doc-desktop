@@ -1,0 +1,772 @@
+/* yasir style sheet start*/
+.appointment-done {
+  background-color: #eb525b !important;
+  color: #fff !important;
+}
+
+.avoid-clicks {
+  pointer-events: none;
+}
+
+/* yasir style sheet end */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  --main-background-color: #273c75;
+  --main-color: #273c75;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: var(--main-color);
+}
+
+.color-bground {
+  background-color: var(--main-background-color);
+}
+.logo-set img {
+  height: 50px;
+  width: auto;
+}
+.bottom-bdr {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+.set-main-con {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.search-container {
+  align-items: center;
+  width: 100%;
+}
+.search-container select {
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 #d3d3d3;
+}
+.custom-select:focus {
+  border-color: #d3d3d3;
+  box-shadow: 0 4px 8px 0 #d3d3d3;
+}
+.select-location {
+  font-size: 14px;
+  color: rgb(207, 13, 13);
+}
+.search-container > label {
+  position: absolute;
+  top: -11px;
+  padding: 0;
+  left: 30px;
+  background-color: white;
+}
+select:focus {
+  outline: none !important;
+}
+.card {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-items: center;
+  border: 1px #d3d3d3;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px 0 #d3d3d3;
+}
+.details {
+  padding-top: 15px;
+}
+.inner-text {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 30px;
+  cursor: pointer;
+}
+.img-tag {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+}
+.img-tag img {
+  height: 120px;
+  width: 120px;
+  border-radius: 75px;
+}
+.custom-btn {
+  padding: 5px 25px !important;
+  color: var(--main-color);
+  outline: none;
+}
+.custom-btn:hover {
+  color: var(--main-color);
+}
+.set-crd-txt {
+  border-top: 3px solid #273c75;
+  font-size: 14px;
+  padding-top: 10px;
+}
+.time-show {
+  align-items: center;
+  margin-top: 20px;
+}
+.tab-content {
+  margin: 20px 10px;
+}
+.model-td {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.select-changes {
+  width: 100%;
+  text-align: center;
+}
+.time-span {
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+  border-radius: 5px;
+  padding: 0px 4px;
+  margin: 4px 4px;
+  cursor: pointer;
+}
+.pointer {
+  cursor: pointer;
+}
+.see-more {
+  margin-top: 10px;
+}
+.see-more a {
+  color: var(--main-color);
+  font-size: 18px;
+}
+.see-more a:hover {
+  color: var(--main-color);
+  font-weight: 500;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.set-up-down {
+  padding-bottom: 25px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: space-between;
+}
+.select-btn {
+  padding: 5px 25px !important;
+  color: white;
+  background-color: var(--main-background-color);
+  border: 1px solid var(--main-color);
+  border-radius: 5px;
+  outline: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: var(--main-background-color);
+}
+
+/* footer part  */
+
+.footer {
+  width: 100%;
+ background-color: var(--main-background-color);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+.footer p {
+  color: white;
+}
+
+/* staff part start here  */
+.staff-main {
+  padding: 0 20px;
+  margin-top: 70px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(124, 120, 120, 0.2);
+}
+.h3-style {
+  padding: 50px 0px 20px 40px;
+}
+.staff-lst-set {
+  list-style: none;
+}
+.staff-lst-set li {
+  padding: 10px 8.5px;
+}
+.staff-lst-set li:hover {
+  background-color: rgb(245, 245, 245);
+}
+.staff-lst-set a {
+  text-decoration: none;
+}
+.set-li-staff img {
+  height: 50px;
+}
+.set-li-staff h6 {
+  padding: 20px 15px 5px 15px;
+  font-weight: 400;
+  color: #5c5b5b;
+  font-size: 18px;
+}
+.set-li-icon {
+  padding-top: 20px;
+}
+.cont-info {
+  margin-top: 70px;
+}
+.location-set {
+  width: 100%;
+  height: 250px;
+}
+.location-set iframe {
+  border: none;
+}
+.adress-links {
+  padding: 10px 0;
+}
+.adress-links div {
+  padding: 20px 0 0 0;
+  text-decoration: none;
+}
+.adress-links i {
+  color: #007bff;
+  margin-right: 10px;
+}
+.adress-links a:hover {
+  color: #007bff;
+  text-decoration: none;
+}
+.business-timing {
+  list-style: none;
+  font-weight: 300;
+}
+.business-hours {
+  padding: 20px 0;
+}
+.business-hours table {
+  width: 100%;
+}
+
+/* staffdetails part are started here  */
+
+.dt-calendar{
+  width: 50%;
+}
+
+.status-info {
+    min-height: 64px;
+    padding: 24px 16px;
+    background-color: #f6f8fc;
+    border-radius: 6px;
+    margin-bottom: 24px;
+}
+/*progress bar */
+.progress-details{
+position: relative;
+margin: 25px 0 30px 0;
+}
+.circle-one{
+position: absolute;
+top: 0%;
+left: 11%;
+background-color: #007bff;
+width: 40px;
+height: 40px;
+border-radius: 25px;
+transform: translateY(-48%);
+}
+.circle-two{
+position: absolute;
+top: 0%;
+left: 35%;
+background-color: #007bff;
+width: 40px;
+height: 40px;
+border-radius: 25px;
+transform: translateY(-48%);
+}
+.circle-three{
+position: absolute;
+top: 0%;
+left: 60%;
+background-color: #007bff;
+width: 40px;
+height: 40px;
+border-radius: 25px;
+transform: translateY(-48%);
+}
+
+.circle-four{
+position: absolute;
+top: 0%;
+right: 12%;
+background-color: #007bff;
+width: 40px;
+height: 40px;
+border-radius: 25px;
+transform: translateY(-48%);
+}
+
+.circle-one, .circle-two, .circle-three, .circle-four i{
+color: #fff;
+padding-left: 14px;
+padding-top: 10px;
+font-size: 20px;
+}
+}
+
+.staff-details {
+  padding: 26px 0px 10px 40px;
+}
+.staff-details i {
+  margin-bottom: 24px;
+}
+.details-inner {
+  padding-left: 20px;
+}
+.details-inner-img img {
+  border-radius: 50px;
+}
+.left-right {
+  margin-left: 0;
+  margin-right: 0;
+}
+.staff-lst-inner {
+  padding-top: 8px;
+  font-size: 14px;
+  color: #8b8989;
+}
+.appiontment-card {
+  padding: 50px 100px;
+}
+.table-head-set {
+  font-size: 16px;
+  font-weight: 500;
+}
+.table-row-set {
+  border-top: 1px solid rgb(212, 214, 216);
+}
+
+/* review part start here  */
+.inner-cont-review {
+  text-align: center;
+  padding: 50px 0;
+}
+.inner-cont-review i {
+  font-size: 55px;
+  padding-bottom: 30px;
+}
+.inner-cont-about {
+  padding: 0 20px 20px 40px;
+}
+.sl-sataff-details{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* form part start here  */
+.appointment {
+  padding: 50px 100px;
+}
+.form-group input {
+  background-color: rgb(0 0 0 / 4%);
+  border-radius: 6px;
+  border: 0.5px solid #d3d3d3;
+}
+.form-group select {
+  background-color: rgb(0 0 0 / 4%);
+  border-radius: 6px;
+  border: 0.5px solid #d3d3d3;
+}
+.f-pad-top {
+  padding-top: 15px;
+}
+/* design test part extend.html css  */
+.set-extend {
+  background-color: white;
+  color: var(--main-color);
+  border: none;
+  padding: 5px;
+}
+.set-extend:focus {
+  box-shadow: 0 0 0 0.2px #273c75;
+  border: solid 1px #273c75;
+}
+.extend {
+  font-weight: 500;
+}
+.set-extend-active {
+  background-color: var(--main-background-color);
+  color: white;
+}
+.step-info {
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.insurance {
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+/* thank you part started here  */
+.thank-you {
+  text-align: center;
+  margin: 8.07% 0;
+}
+.thank-you h1 {
+  margin: 15px 0;
+}
+.thank-you p {
+  font-size: 17px;
+  font-weight: 500;
+  opacity: 0.7;
+}
+/************ patient appointment.html ***********/
+.custom-home {
+  background-color: white;
+  padding: 50px 0;
+  margin-top: 50px;
+  border-radius: 12px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.patient-welcom {
+  margin-right: 20px;
+  color: var(--main-color);
+}
+.patient-table-content {
+  margin-top: 30px;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 25px;
+}
+.home-active {
+  color: #fff !important;
+  background-color: var(--main-background-color);
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 25px;
+}
+.appoint-nav-tabs {
+  border-bottom: none;
+}
+.appoint-nav-link {
+  color: var(--main-background-color);
+  border-radius: 25px;
+  padding: 10px 15px;
+}
+.appoint-nav-link.active {
+  color: white !important;
+  background-color: #dc3545 !important;
+  border-radius: 25px;
+  padding: 10px 15px;
+}
+.home-border {
+  padding: 0;
+  border: 1px solid #dee2e6;
+  border-radius: 2px;
+  background-color: #fff;
+}
+.news {
+  width: 100%;
+  color: #cc4444;
+}
+.news {
+  font-size: 20px;
+}
+.news-content i {
+  font-size: 28px;
+}
+.news-content p {
+  margin-left: 10px;
+  display: inline;
+}
+/* marquee css ended here  */
+.status-panding {
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 0px 6px 2px 8px;
+  color: #0d172a;
+  background-color: #ffc107;
+}
+.status-confirmed {
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 0px 6px 2px 8px;
+  color: #0d172a;
+  background-color: #2ecc71;
+}
+table tr th {
+  text-align: center;
+}
+.button-81 {
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #dc3545;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  padding: 8px 16px;
+  text-align: center;
+  box-shadow: 0px 6px 3px rgba(166, 175, 195, 0.25);
+  touch-action: manipulation;
+}
+.button-81:hover {
+  background-color: #dc3545;
+  color: #fff;
+}
+.custom-btn-disable {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.5;
+}
+/************ patient home.html ***********/
+.wid-full {
+  padding-left: 0;
+  padding-right: 0;
+}
+.fst-container {
+  background-image: url("../img/shape-10.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+  height: 363px;
+}
+.patient-home {
+  margin-top: 35px;
+}
+.home-card {
+  background-color: rgb(0 0 0 / 4%);
+  min-height: 447px;
+  padding: 20px 15px 0 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px #d3d3d3;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 #d3d3d3;
+}
+.custom-crd-img img {
+  width: auto;
+  height: 160px;
+}
+.card-upper {
+  text-align: center;
+  margin-top: 10px;
+}
+.date-time {
+  background-color: #e9ecef;
+  border-radius: 5px;
+  padding: 12px 20px;
+  margin-bottom: 8px;
+}
+.home-panding {
+  position: absolute;
+  right: 0;
+  font-size: 14px;
+  border-radius: 0;
+  padding: 4px 8px 4px 8px;
+  color: white;
+  background-color: #dc3545;
+}
+.home-confirmed {
+  position: absolute;
+  right: 0;
+  font-size: 14px;
+  border-radius: 0;
+  padding: 4px 8px 4px 8px;
+  color: white;
+  background-color: #2ecc71;
+}
+.card-body img {
+  height: 50px;
+  width: 50px;
+}
+.btn-box {
+  padding: 15px 0px 20px 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.not-found {
+  padding: 70px 40px;
+}
+/************ patient profile css ***********/
+.home-profile {
+  padding: 70px 0;
+}
+.custom-file {
+  position: absolute;
+  top: 18px;
+}
+/************ patient care css ***********/
+.custom-care {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 8px 16px 0 #adb5bd;
+  border-radius: 0px;
+}
+.five-star {
+  color: #ffc107;
+  margin-bottom: 5px;
+}
+.care-blue-text {
+  color: #2806e8;
+  margin-bottom: 5px;
+}
+.inner-card-care img {
+  width: auto;
+  height: 120px;
+  margin-bottom: 10px;
+}
+/************ change password css ***********/
+.custom-cotainer {
+  margin-top: 0;
+  margin-bottom: 80px;
+  margin-top: 0;
+  margin-top: 0;
+}
+.login-policy {
+  text-align: center;
+  margin: 25px 0;
+}
+.form-group {
+  margin-bottom: 2rem;
+}
+.button-27 {
+  background-color: var(--main-background-color);
+  border: 2px solid var(--main-background-color);
+  border-radius: 25px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+  padding: 4px 16px;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+}
+.button-27:disabled {
+  pointer-events: none;
+}
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.button-28 {
+  background-color: transparent;
+  border: 2px solid var(--main-background-color);
+  border-radius: 25px;
+  box-sizing: border-box;
+  color: var(--main-background-color);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 10px;
+  outline: none;
+  padding: 4px 16px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+}
+
+.button-28:disabled {
+  pointer-events: none;
+}
+
+.button-28:hover {
+  color: #fff;
+  background-color: var(--main-background-color);
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+.no-appoint {
+  font-size: 3.5rem;
+  color: #dc3545;
+}
+/************ navbar media query ***********/
+@media only screen and (max-width: 1192px) {
+  .patient-table-content {
+    padding-left: 2px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .thank-you {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 883px) {
+  .fst-container {
+    background-position: inherit;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .staff-lst-inner {
+    padding-left: 15px;
+  }
+  .bottom-bdr {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    width: 55px;
+  }
+  .patient-welcom {
+    display: none;
+  }
+  .custom-home {
+    padding: 20px 0;
+    margin-top: 20px;
+  }
+  .appointment {
+    padding: 25px;
+  }
+  .button-81 {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 10px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .staff-main {
+  padding: 0 5px;
+  margin-top: 35px;
+  }
+  .h3-style {
+    padding: 30px 0px 20px 20px;
+  }
+  .circle-three {
+    left: 56%;
+  }
+  .circle-four{
+  right: 8%;
+  }
+}
