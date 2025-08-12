@@ -1,0 +1,318 @@
+/************month calendar css start here************/
+
+.calendar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  background-color: #ffff;
+  padding: 15px 0;
+}
+.calendar-body{
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.calendar-wrapper {
+  width: 440px;
+}
+.calendar-wrapper header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+.icons {
+  position: relative;
+}
+.icons span {
+  position: absolute;
+  left: -18px;
+  bottom: -16px;
+  height: 30px;
+  width: 30px;
+  margin: 0 1px;
+  line-height: 25px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  font-size: 26px;
+}
+.icons span:hover {
+  background-color: #b0aeae;
+}
+.calendar-body {
+  padding: 0 0 10px 0;
+}
+.calendar-body ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 5px 12px;
+}
+.calendar-body .weeks li {
+  font-weight: 500;
+  cursor: pointer;
+}
+.calendar-body .days li {
+  cursor: pointer;
+  margin-top: 5px;
+  padding: 12px;
+  z-index: 1;
+}
+.calendar-body ul li {
+  position: relative;
+  width: calc(100% / 7);
+}
+.days li.inactive {
+  color: #fff;
+}
+.days li.active-date {
+  color: #fff;
+}
+.calendar-body .days li::before {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+}
+.days li:hover:before {
+  background-color: #f2f2f2;
+}
+.days li.active-date::before {
+  background-color: #273c75;
+}
+.days li.inactive::before {
+  background-color: #eb525b;
+  color: #fff;
+}
+.schedule {
+  text-align: center;
+  width: 184px;
+  padding-top: 12px;
+}
+.schedule ul li {
+  list-style: none;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 6px 25px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.schedule .active-date {
+  color: #fff;
+  background-color: #273c75;
+}
+.time-tab .active-slot{
+  color: #fff;
+  background-color: #273c75;
+}
+.time-tab .active-slot:hover{
+  color: #fff;
+  background-color: #273c75;
+}
+.disable{
+  background-color: #eb525b;
+  color: #fff;
+  pointer-events: none;
+}
+.nm-inactive{
+  color: #bdb5b5;
+}
+/************ weekly calendar css ***********/
+#myc-container {
+  width: inherit;
+}
+
+#myc-nav-container {
+  margin-bottom: 8px;
+  width: inherit;
+  padding-left: 20px;
+}
+
+#myc-current-month-year-container {
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: lighter;
+  text-align: center;
+  text-transform: capitalize;
+  vertical-align: top;
+  width: 68%;
+}
+
+#myc-prev-week-container {
+  display: inline-block;
+  width: 12%;
+}
+
+#myc-next-week-container {
+  display: inline-block;
+  width: 12%;
+}
+
+#myc-prev-week {
+  background-color: #eee;
+  border-radius: 80px;
+  color: #1d1d1d;
+  cursor: pointer;
+  float: left;
+  font-size: 23px;
+  font-weight: 500;
+  height: 40px;
+  text-align: center;
+  width: 40px;
+}
+
+#myc-next-week {
+  background-color: #eee;
+  border-radius: 80px;
+  color: #1d1d1d;
+  cursor: pointer;
+  float: right;
+  font-size: 23px;
+  font-weight: 500;
+  height: 40px;
+  text-align: center;
+  width: 40px;
+}
+
+#myc-prev-week:hover,
+#myc-next-week:hover {
+  background-color: #bdbdbd;
+  color: #1d1d1d;
+}
+
+#myc-week-container {
+  border: 1px solid #e0e0e0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 1px;
+  border-radius: 10px;
+}
+
+#myc-dates-container {
+  background-color: #fafafa;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 7px 18px -20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  cursor: pointer;
+}
+.container-weekly 
+{
+  margin: 40px auto;
+  padding: 0 35px;
+ }
+.myc-date-header {
+  display: inline-block;
+  min-height: 50px;
+  padding-bottom: 5px;
+  vertical-align: top;
+  width: 25%;
+  text-align: center;
+}
+.nav ul li:active {
+     background-color: rgba(0,0,0,0); 
+}
+.nav ul li:hover {
+     background-color: rgba(0,0,0,0); 
+}
+.myc-date-header:first-of-type {
+  padding-left: 15px;
+}
+
+.myc-date-header:last-of-type {
+  border-right: none;
+  width: 16%;
+}
+
+#myc-available-time-container {
+  border-top: 1px solid #e0e0e0;
+  min-height: 50px;
+}
+
+.myc-day-time-container {
+  display: inline-block;
+  height: 100%;
+  padding: 15px 5px 5px 5px;
+  vertical-align: top;
+  width: 25%;
+}
+
+.myc-day-time-container:first-of-type {
+  padding-left: 15px;
+}
+
+.myc-day-time-container:last-of-type {
+  border-right: none;
+  width: 20%;
+}
+
+.myc-date-number {
+  font-size: 2.1em;
+  font-weight: lighter;
+}
+
+.myc-available-time {
+  background-color: #eeeeee;
+  color: #000;
+  display: block;
+  margin-bottom: 12px;
+  padding: 5px 0px 5px 0px;
+  text-align: center;
+  font-weight: 400;
+  border-radius: 5px;
+}
+
+/*.myc-available-time:hover*/
+.myc-available-time.selected {
+  background-color: #032b43;
+  color: #ffff;
+}
+
+.myc-date-display {
+  font-weight: 400;
+}
+
+/*******weekly calendar media query******/
+@media only screen and (max-width: 768px) {
+  .myc-date-header,
+  .myc-day-time-container {
+    width: 25%;
+  }
+  #myc-nav-container {
+    margin-bottom: 8px;
+    padding-left: 10px;
+  }
+    .container-weekly{
+    white-space: nowrap;
+  }
+  .container-weekly {
+    padding: 0px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .staff-main {
+    padding: 0 5px;
+  }
+  .myc-day-time-container:first-of-type {
+      padding-left: 10px;
+  }
+  .pb-name{
+  left: 10%;
+}
+.pb-name-45 {
+  left: 35%;
+  }
+  .pb-name-100 {
+    right: 3%;
+  }
+  .myc-available-time {
+    font-size: 10px;
+    font-weight: 500;
+  }
+}
