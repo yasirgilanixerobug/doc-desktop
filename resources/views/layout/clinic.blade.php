@@ -59,6 +59,9 @@
 
 <!-- jQuery -->
 <script src="{{ asset('/clinic-assets/plugins/jquery/jquery.min.js')  }}"></script>
+<script>
+    window.$ = window.jQuery = require ? require('jquery') : window.jQuery;
+</script>
 <!-- Bootstrap 4 -->
 <script src="{{ asset('/clinic-assets/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 <!-- AdminLTE App -->
@@ -67,8 +70,9 @@
 <script src="{{ asset('/clinic-assets/custom/js/filter-search.js')  }}"></script>
 <!-- Toastr -->
 <script src="{{ asset('/clinic-assets/plugins/toastr/toastr.min.js') }}"></script>
-@include('flash-message')
 
+@include('flash-message')
+        
 @stack('js')
 </body>
 </html>
